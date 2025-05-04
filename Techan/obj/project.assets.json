@@ -7600,11 +7600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\TECHAN\\Techan\\Techan.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\Techan.csproj",
       "projectName": "Techan",
-      "projectPath": "C:\\Users\\user\\Desktop\\TECHAN\\Techan\\Techan.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\Techan.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\TECHAN\\Techan\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

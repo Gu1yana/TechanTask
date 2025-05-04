@@ -5,7 +5,7 @@
 namespace Techan.Migrations
 {
     /// <inheritdoc />
-    public partial class CreatedSlidersTable : Migration
+    public partial class CreatSliderTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -20,7 +20,6 @@ namespace Techan.Migrations
                     LittleTitle = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     BigTitle = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Offer = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Link = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },

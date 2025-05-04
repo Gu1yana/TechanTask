@@ -11,8 +11,8 @@ using Techan.DataAccessLayer;
 namespace Techan.Migrations
 {
     [DbContext(typeof(TechanDbContext))]
-    [Migration("20250501201121_CreatedSlidersTable")]
-    partial class CreatedSlidersTable
+    [Migration("20250504192745_CreatSliderTable")]
+    partial class CreatSliderTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,10 +33,6 @@ namespace Techan.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("BigTitle")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

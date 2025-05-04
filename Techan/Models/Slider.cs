@@ -8,7 +8,6 @@ public class Slider:BaseEntity
     public string LittleTitle { get; set; }
     public string BigTitle { get; set; }
     public string Offer {  get; set; }
-    public string Description {  get; set; }
     public string ImageUrl { get; set; }
     public string Link { get; set; }
 }

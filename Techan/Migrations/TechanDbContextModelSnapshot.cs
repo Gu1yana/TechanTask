@@ -10,7 +10,7 @@ using Techan.DataAccessLayer;
 namespace Techan.Migrations
 {
     [DbContext(typeof(TechanDbContext))]
-    partial class CreatedContextModel : ModelSnapshot
+    partial class TechanDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -30,10 +30,6 @@ namespace Techan.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("BigTitle")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
