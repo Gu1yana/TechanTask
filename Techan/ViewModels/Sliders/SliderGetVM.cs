@@ -2,7 +2,7 @@
 
 namespace Techan.ViewModels.Sliders
 {
-    public class SliderGetVm:BaseEntity
+    public class SliderGetVM:BaseEntity
     {
         public string Title { get; set; }
         public string LittleTitle { get; set; }

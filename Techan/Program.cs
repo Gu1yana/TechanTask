@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Techan.DataAccessLayer;
+
 namespace Techan
 {
     public class Program
@@ -5,6 +8,11 @@ namespace Techan
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<TechanDbContext>(opt =>
+            {
+                opt.UseSqlServer("Server=WIN-G1CGFOVK2JI\\SQLEXPRESS;Database=Techan;Trusted_Connection=true;TrustServerCertificate=true");
+            });
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
