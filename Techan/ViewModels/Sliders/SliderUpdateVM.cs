@@ -8,6 +8,7 @@ public class SliderUpdateVM:BaseEntity
 	public string LittleTitle { get; set; }
 	public string BigTitle { get; set; }
 	public string Offer { get; set; }
-	public string ImageUrl { get; set; }
+	public IFormFile ImageFile { get; set; }
 	public string Link { get; set; }
+	public string ImagePath {  get; set; }	
 }
