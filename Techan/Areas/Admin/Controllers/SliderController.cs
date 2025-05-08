@@ -74,6 +74,7 @@ namespace Techan.Areas.Admin.Controllers
             if (id.HasValue && id < 1) return BadRequest();
             var entity=await _context.Sliders.Select(x => new SliderUpdateVM
             {
+                Id=x.Id,
                 Offer = x.Offer,
                 Link = x.Link,
                 ImagePath = x.ImagePath,
@@ -97,7 +98,7 @@ namespace Techan.Areas.Admin.Controllers
                 string newPath = Path.Combine("wwwroot", "imgs", "brands", newFileName);
                 await using(FileStream fs = System.IO.File.Create(newPath))
                 {
-                    model.ImageFile.CopyToAsync(fs);
+                   await model.ImageFile.CopyToAsync(fs);
                 }
                 entity.ImagePath = newFileName;
                 entity.Title = model.Title; 

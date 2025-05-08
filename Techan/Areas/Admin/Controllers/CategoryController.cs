@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol;
 using Techan.DataAccessLayer;
 using Techan.Models;
 using Techan.ViewModels.Categories;
@@ -35,9 +36,8 @@ namespace Techan.Areas.Admin.Controllers
 		{
 			if (!ModelState.IsValid)
 				return View(model);
-			Category category = new()
-			{
-			};
+			Category category = new();
+			category.Name = model.Name;
 			await _context.Categories.AddAsync(category);
 			await _context.SaveChangesAsync();
 			return RedirectToAction(nameof(Index));
@@ -48,6 +48,24 @@ namespace Techan.Areas.Admin.Controllers
 			int result = await _context.Categories.Where(x => x.Id == id).ExecuteDeleteAsync();
 			if (result == 0)
 				return NotFound();
+			return RedirectToAction(nameof(Index));
+		}
+		public async Task<IActionResult> Update(int? id)
+		{
+			if (id.HasValue && id < 1) return BadRequest();
+			var entity = await _context.Categories.Select(x => new CategoryUpdateVM { Id = x.Id, Name = x.Name }).FirstOrDefaultAsync(x => x.Id == id);
+			if (entity is null) return NotFound();
+			return View(entity);
+		}
+		[HttpPost]
+		public async Task<IActionResult> Update(int?id, CategoryUpdateVM model)
+		{
+			if (id.HasValue && id < 1) return BadRequest();
+			if(!ModelState.IsValid) return View(model);
+			var entity=await _context.Categories.FirstOrDefaultAsync(x => x.Id == id);
+			if(entity is null) return BadRequest();
+			entity.Name = model.Name;
+			await _context.SaveChangesAsync();
 			return RedirectToAction(nameof(Index));
 		}
 	}
