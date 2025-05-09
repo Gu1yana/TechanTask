@@ -43,8 +43,8 @@ namespace Techan.Areas.Admin.Controllers
             if(!ModelState.IsValid)
                 return View(model);
             string newName = Path.GetRandomFileName() + Path.GetExtension(model.ImageFile!.FileName);
-            string path=Path.Combine("imgs","sliders",newName);
-            await using (FileStream fs = System.IO.File.Create(newName))
+            string path=Path.Combine("wwwroot","imgs","slider",newName);
+            await using (FileStream fs = System.IO.File.Create(path))
             {
                 await model.ImageFile.CopyToAsync(fs);
             }
@@ -95,7 +95,7 @@ namespace Techan.Areas.Admin.Controllers
             if(model.ImagePath!=null)
             {
 				string newFileName = Path.GetRandomFileName() + Path.GetExtension(model.ImageFile.FileName);
-                string newPath = Path.Combine("wwwroot", "imgs", "brands", newFileName);
+                string newPath = Path.Combine("wwwroot", "imgs", "slider", newFileName);
                 await using(FileStream fs = System.IO.File.Create(newPath))
                 {
                    await model.ImageFile.CopyToAsync(fs);
