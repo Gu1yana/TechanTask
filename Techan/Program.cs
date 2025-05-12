@@ -11,7 +11,7 @@ namespace Techan
 
             builder.Services.AddDbContext<TechanDbContext>(opt =>
             {
-                opt.UseSqlServer("Server=WIN-G1CGFOVK2JI\\SQLEXPRESS;Database=Techan;Trusted_Connection=true;TrustServerCertificate=true");
+                opt.UseSqlServer("Server=.\\SQLEXPRESS;Database=Techan;Trusted_Connection=true;TrustServerCertificate=true");
             });
 
             // Add services to the container.

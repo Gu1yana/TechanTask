@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using Techan.DataAccessLayer;
 using Techan.Models;
+using Techan.ViewModels.Brands;
 using Techan.ViewModels.Products;
 using Techan.ViewModels.Sliders;
 
@@ -13,24 +14,19 @@ namespace Techan.Areas.Admin.Controllers
     {
         public async Task<IActionResult> Index()
         {
-            List<Product> datas = [];
-            datas = await _context.Products.ToListAsync();
-            List<ProductGetVM> vms = [];
-            foreach (var data in datas)
-            {
-                vms.Add(new ProductGetVM
+            var brands=await _context.Brands.Select(
+                x=>new BrandGetVM
                 {
-                    Id = data.Id,
-                    Name = data.Name,
-                    Description = data.Description,
-                    Discount = data.Discount,
-                    Price = data.Price,
-                    ImageUrl = data.ImageUrl,
-                    BrandId = data.BrandId,
-                    CategoryId = data.CategoryId,
-                });
-            }
-            return View(vms);
+                    Id= x.Id,
+                    Name= x.Name,
+                }).ToListAsync();
+            ViewBag.Brands = brands;
+            return View();
         }
+        public async Task<IActionResult> Create()
+        {
+            return Ok();
+        }
+
     }
 }

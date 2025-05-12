@@ -1344,262 +1344,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\js\vendors\select2.min.js))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\abstracts\_import-vendors.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/abstracts/_import-vendors.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\abstracts\_import-vendors.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\abstracts\_mixins.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/abstracts/_mixins.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\abstracts\_mixins.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\abstracts\_variables.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/abstracts/_variables.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\abstracts\_variables.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\base\_helpers.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/base/_helpers.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\base\_helpers.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\base\_typography.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/base/_typography.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\base\_typography.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_buttons.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/components/_buttons.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_buttons.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_elements.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/components/_elements.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_elements.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_forms.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/components/_forms.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_forms.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_items.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/components/_items.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_items.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_lists.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/components/_lists.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_lists.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_navigation.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/components/_navigation.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\components\_navigation.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\layout\_layout-dark.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/layout/_layout-dark.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\layout\_layout-dark.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\layout\_layout.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/layout/_layout.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\layout\_layout.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\layout\_responsive.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/layout/_responsive.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\layout\_responsive.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\layout\_spacing.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/layout/_spacing.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\layout\_spacing.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\main.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>admin/assets/sass/main.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\sass\main.scss))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\css\main.css))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
@@ -5200,12 +4944,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\js\vendor\modernizr-3.6.0.min.js))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\abstracts\_functions.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\agkmy1hi.5kb.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/abstracts/_functions.scss</RelativePath>
+      <RelativePath>imgs/brands/agkmy1hi.5kb.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5214,14 +4958,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\abstracts\_functions.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\agkmy1hi.5kb.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\abstracts\_mixins.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\bucqnl1a.iwa.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/abstracts/_mixins.scss</RelativePath>
+      <RelativePath>imgs/brands/bucqnl1a.iwa.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5230,14 +4974,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\abstracts\_mixins.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\bucqnl1a.iwa.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\abstracts\_variables.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\c0crhcr1.nin.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/abstracts/_variables.scss</RelativePath>
+      <RelativePath>imgs/brands/c0crhcr1.nin.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5246,14 +4990,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\abstracts\_variables.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\c0crhcr1.nin.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\base\_animation.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\eraxk25u.nll.png))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/base/_animation.scss</RelativePath>
+      <RelativePath>imgs/brands/eraxk25u.nll.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5262,14 +5006,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\base\_animation.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\eraxk25u.nll.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\base\_common.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\iyvcw1iz.aow.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/base/_common.scss</RelativePath>
+      <RelativePath>imgs/brands/iyvcw1iz.aow.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5278,14 +5022,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\base\_common.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\iyvcw1iz.aow.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\base\_typography.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\iyxi4qlb.fl5.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/base/_typography.scss</RelativePath>
+      <RelativePath>imgs/brands/iyxi4qlb.fl5.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5294,14 +5038,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\base\_typography.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\iyxi4qlb.fl5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_banners.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\uxtbnjj1.smo.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/components/_banners.scss</RelativePath>
+      <RelativePath>imgs/brands/uxtbnjj1.smo.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5310,14 +5054,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_banners.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\uxtbnjj1.smo.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_buttons.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\wfwwoxtb.i2y.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/components/_buttons.scss</RelativePath>
+      <RelativePath>imgs/brands/wfwwoxtb.i2y.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5326,14 +5070,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_buttons.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\wfwwoxtb.i2y.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_card.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\z3yj0dhg.oc3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/components/_card.scss</RelativePath>
+      <RelativePath>imgs/brands/z3yj0dhg.oc3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5342,14 +5086,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_card.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\z3yj0dhg.oc3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_form.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\znykzrv0.vxq.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/components/_form.scss</RelativePath>
+      <RelativePath>imgs/brands/znykzrv0.vxq.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5358,14 +5102,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_form.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\znykzrv0.vxq.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_misc.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\zsnpiwvn.qvw.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/components/_misc.scss</RelativePath>
+      <RelativePath>imgs/brands/zsnpiwvn.qvw.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5374,14 +5118,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_misc.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\brands\zsnpiwvn.qvw.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_slider.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\slider\as3kg4g0.dcm.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/components/_slider.scss</RelativePath>
+      <RelativePath>imgs/slider/as3kg4g0.dcm.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5390,14 +5134,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_slider.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\slider\as3kg4g0.dcm.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_tabs.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\slider\gzj4e4jc.qrk.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/components/_tabs.scss</RelativePath>
+      <RelativePath>imgs/slider/gzj4e4jc.qrk.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5406,14 +5150,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\components\_tabs.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\slider\gzj4e4jc.qrk.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_footer.scss))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\slider\ymoihhly.tqv.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Techan</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/layout/_footer.scss</RelativePath>
+      <RelativePath>imgs/slider/ymoihhly.tqv.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -5422,183 +5166,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_footer.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_header.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/layout/_header.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_header.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_navigation.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/layout/_navigation.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_navigation.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_responsive.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/layout/_responsive.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_responsive.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_sidebar.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/layout/_sidebar.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_sidebar.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_spacing.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/layout/_spacing.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\layout\_spacing.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\main.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/main.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\main.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\pages\_blog.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/pages/_blog.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\pages\_blog.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\pages\_page.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/pages/_page.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\pages\_page.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\pages\_shop.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/pages/_shop.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\pages\_shop.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\themes\_default.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/themes/_default.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\themes\_default.scss))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\vendors\_vendors-import.scss))">
-      <SourceType>Package</SourceType>
-      <SourceId>Techan</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Techan</BasePath>
-      <RelativePath>assets/sass/vendors/_vendors-import.scss</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\sass\vendors\_vendors-import.scss))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imgs\slider\ymoihhly.tqv.jpg))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -74,6 +74,9 @@ namespace Techan.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
+                    b.Property<decimal>("CostPrice")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -89,7 +92,7 @@ namespace Techan.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Price")
+                    b.Property<decimal>("SellPrice")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
@@ -99,6 +102,28 @@ namespace Techan.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("Techan.Models.ProductImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductImage");
                 });
 
             modelBuilder.Entity("Techan.Models.Slider", b =>
@@ -157,6 +182,17 @@ namespace Techan.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("Techan.Models.ProductImage", b =>
+                {
+                    b.HasOne("Techan.Models.Product", "Product")
+                        .WithMany("Images")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("Techan.Models.Brand", b =>
                 {
                     b.Navigation("Products");
@@ -165,6 +201,11 @@ namespace Techan.Migrations
             modelBuilder.Entity("Techan.Models.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("Techan.Models.Product", b =>
+                {
+                    b.Navigation("Images");
                 });
 #pragma warning restore 612, 618
         }

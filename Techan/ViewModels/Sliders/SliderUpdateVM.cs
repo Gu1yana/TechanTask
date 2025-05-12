@@ -10,5 +10,5 @@ public class SliderUpdateVM:BaseEntity
 	public string Offer { get; set; }
 	public IFormFile? ImageFile { get; set; }
 	public string Link { get; set; }
-	public string? ImagePath {  get; set; }	
+	public string? ImagePath {  get; set; }
 }

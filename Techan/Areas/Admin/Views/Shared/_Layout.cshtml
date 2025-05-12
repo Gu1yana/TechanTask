@@ -41,19 +41,22 @@
                     <a class="menu-link" asp-action="Index" asp-controller="Slider">
                         <i class="icon material-icons md-home"></i>
                         <span class="text">Slider</span>
-                    </a>
-                </li>
+					</a>
                 <li class="menu-item">
                     <a class="menu-link" asp-action="Index" asp-controller="Brand">
                         <i class="icon material-icons md-home"></i>
                         <span class="text">Brand</span>
                     </a>
                     </li>
-                <li class="menu-item">
+                <li class="menu-item has-submenu">
                     <a class="menu-link" asp-action="Index" asp-controller="Product">
                         <i class="icon material-icons md-home"></i>
                         <span class="text">Product</span>
                     </a>
+                    <div class="submenu">
+                        <a asp-action="Index" asp-controller="Product">List</a>
+                        <a asp-action="Create" asp-controller="Product">Create</a>
+                    </div>
                 <li class="menu-item">
                     <a class="menu-link" asp-action="Index" asp-controller="Category">
                         <i class="icon material-icons md-home"></i>

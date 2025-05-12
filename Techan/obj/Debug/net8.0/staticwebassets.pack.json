@@ -337,70 +337,6 @@
       "PackagePath": "staticwebassets\\admin\\assets\\js\\vendors\\select2.min.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\abstracts\\_import-vendors.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\abstracts\\_import-vendors.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\abstracts\\_mixins.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\abstracts\\_mixins.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\abstracts\\_variables.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\abstracts\\_variables.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\base\\_helpers.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\base\\_helpers.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\base\\_typography.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\base\\_typography.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\components\\_buttons.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\components\\_buttons.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\components\\_elements.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\components\\_elements.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\components\\_forms.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\components\\_forms.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\components\\_items.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\components\\_items.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\components\\_lists.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\components\\_lists.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\components\\_navigation.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\components\\_navigation.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\layout\\_layout-dark.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\layout\\_layout-dark.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\layout\\_layout.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\layout\\_layout.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\layout\\_responsive.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\layout\\_responsive.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\layout\\_spacing.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\layout\\_spacing.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\admin\\assets\\sass\\main.scss",
-      "PackagePath": "staticwebassets\\admin\\assets\\sass\\main.scss"
-    },
-    {
       "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\css\\main.css",
       "PackagePath": "staticwebassets\\assets\\css\\main.css"
     },
@@ -1301,104 +1237,60 @@
       "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.6.0.min.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\abstracts\\_functions.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\abstracts\\_functions.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\agkmy1hi.5kb.jpg",
+      "PackagePath": "staticwebassets\\imgs\\brands\\agkmy1hi.5kb.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\abstracts\\_mixins.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\abstracts\\_mixins.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\bucqnl1a.iwa.jpg",
+      "PackagePath": "staticwebassets\\imgs\\brands\\bucqnl1a.iwa.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\abstracts\\_variables.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\abstracts\\_variables.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\c0crhcr1.nin.jpg",
+      "PackagePath": "staticwebassets\\imgs\\brands\\c0crhcr1.nin.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\base\\_animation.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\base\\_animation.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\eraxk25u.nll.png",
+      "PackagePath": "staticwebassets\\imgs\\brands\\eraxk25u.nll.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\base\\_common.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\base\\_common.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\iyvcw1iz.aow.jpg",
+      "PackagePath": "staticwebassets\\imgs\\brands\\iyvcw1iz.aow.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\base\\_typography.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\base\\_typography.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\iyxi4qlb.fl5.jpg",
+      "PackagePath": "staticwebassets\\imgs\\brands\\iyxi4qlb.fl5.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\components\\_banners.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\components\\_banners.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\uxtbnjj1.smo.jpeg",
+      "PackagePath": "staticwebassets\\imgs\\brands\\uxtbnjj1.smo.jpeg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\components\\_buttons.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\components\\_buttons.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\wfwwoxtb.i2y.jpg",
+      "PackagePath": "staticwebassets\\imgs\\brands\\wfwwoxtb.i2y.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\components\\_card.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\components\\_card.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\z3yj0dhg.oc3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\brands\\z3yj0dhg.oc3.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\components\\_form.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\components\\_form.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\znykzrv0.vxq.jpeg",
+      "PackagePath": "staticwebassets\\imgs\\brands\\znykzrv0.vxq.jpeg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\components\\_misc.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\components\\_misc.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\zsnpiwvn.qvw.jpeg",
+      "PackagePath": "staticwebassets\\imgs\\brands\\zsnpiwvn.qvw.jpeg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\components\\_slider.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\components\\_slider.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\as3kg4g0.dcm.webp",
+      "PackagePath": "staticwebassets\\imgs\\slider\\as3kg4g0.dcm.webp"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\components\\_tabs.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\components\\_tabs.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\gzj4e4jc.qrk.jpg",
+      "PackagePath": "staticwebassets\\imgs\\slider\\gzj4e4jc.qrk.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\layout\\_footer.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_footer.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\layout\\_header.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_header.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\layout\\_navigation.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_navigation.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\layout\\_responsive.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_responsive.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\layout\\_sidebar.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_sidebar.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\layout\\_spacing.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_spacing.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\main.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\main.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\pages\\_blog.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\pages\\_blog.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\pages\\_page.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\pages\\_page.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\pages\\_shop.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\pages\\_shop.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\themes\\_default.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\themes\\_default.scss"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\assets\\sass\\vendors\\_vendors-import.scss",
-      "PackagePath": "staticwebassets\\assets\\sass\\vendors\\_vendors-import.scss"
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\ymoihhly.tqv.jpg",
+      "PackagePath": "staticwebassets\\imgs\\slider\\ymoihhly.tqv.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Techan.Microsoft.AspNetCore.StaticWebAssets.props",

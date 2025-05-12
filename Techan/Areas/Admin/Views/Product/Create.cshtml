@@ -1,0 +1,84 @@
+﻿@model Techan.ViewModels.Products.ProductCreateVM
+<section class="content-main">
+    <div class="row">
+        <div class="col-12">
+            <div class="content-header">
+                <h2 class="content-title">Add New Product</h2>
+                <div>
+                    <a asp-action="Index"3 class="btn btn-md rounded font-sm hover-up">List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h6>1. General info</h6>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="mb-4">
+                                <label asp-for="Name" class="form-label"></label>
+                                <input asp-for="Name" class="form-control">
+                                <span asp-validation-for="Name" class="text-danger text-sm"></span>
+                            </div><div class="mb-4">
+                                <label asp-for="Description" class="form-label"></label>
+                                <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                                <span asp-validation-for="Description" class="text-danger text-sm"></span>
+                            </div>
+                            <div class="mb-4">
+                                <label asp-for="BrandId" class="form-label">Brand name</label>
+                                <select asp-for="BrandId" asp-items='new SelectList(ViewBag.Brands,"Id","Name")' class="form-select">
+                                   
+                                </select>
+
+                            </div>
+                        </div> 
+                    </div> 
+                    <hr class="mb-4 mt-0">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h6>2. Pricing</h6>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="mb-4">
+                                <label class="form-label">Cost in USD</label>
+                                <input type="text" placeholder="$00.0" class="form-control">
+                            </div>
+                        </div> <!-- col.// -->
+                    </div> <!-- row.// -->
+                    <hr class="mb-4 mt-0">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h6>3. Category</h6>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="mb-4">
+                                </label>
+                                <label class="mb-2 form-check form-check-inline" style="width: 45%;">
+                                    <input class="form-check-input" name="mycategory" type="radio">
+                                    <span class="form-check-label"> Others </span>
+                                </label>
+                            </div>
+                        </div> <!-- col.// -->
+                    </div> <!-- row.// -->
+                    <hr class="mb-4 mt-0">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h6>4. Media</h6>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="mb-4">
+                                <label class="form-label">Images</label>
+                                <input class="form-control" type="file">
+                            </div>
+                        </div> <!-- col.// -->
+                    </div> <!-- .row end// -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
