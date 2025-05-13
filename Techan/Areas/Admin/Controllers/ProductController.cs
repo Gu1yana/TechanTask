@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using Techan.DataAccessLayer;
@@ -12,6 +13,7 @@ using Techan.ViewModels.Sliders;
 namespace Techan.Areas.Admin.Controllers
 {
 	[Area("Admin")]
+	[Authorize]
 	public class ProductController(TechanDbContext _context) : Controller
 	{
 		public async Task<IActionResult> Index()
