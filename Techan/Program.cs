@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Techan.DataAccessLayer;
+using Techan.Models.LoginRegister;
 
 namespace Techan
 {
@@ -11,8 +13,20 @@ namespace Techan
 
             builder.Services.AddDbContext<TechanDbContext>(opt =>
             {
-                opt.UseSqlServer("Server=.\\SQLEXPRESS;Database=Techan;Trusted_Connection=true;TrustServerCertificate=true");
+                opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSQL"));
             });
+
+            builder.Services.AddIdentity<AppUser, IdentityRole<Guid>>(x =>
+            {
+                x.User.AllowedUserNameCharacters =
+                "abcdefghijklmnopqrstuvwxyz0123456789_";
+                x.Password.RequireUppercase = false;
+                x.Password.RequireNonAlphanumeric = false;
+                x.Password.RequiredLength = 8;
+                x.SignIn.RequireConfirmedEmail = false;
+                x.Lockout.MaxFailedAccessAttempts = 3;
+                x.Lockout.DefaultLockoutTimeSpan=TimeSpan.FromMinutes(15);
+            }).AddEntityFrameworkStores<TechanDbContext>().AddDefaultTokenProviders();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -29,6 +43,16 @@ namespace Techan
             app.UseRouting();
 
             app.UseAuthorization();
+			app.MapControllerRoute(name: "login", "/Login", new
+			{
+				Controller = "Account",
+				Action = "Login"
+			});
+			app.MapControllerRoute(name: "register", "/Register", new
+            {
+                Controller = "Account",
+                Action = "Register"
+            });
             app.MapControllerRoute(
             name: "areas",
             pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"

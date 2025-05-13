@@ -1,14 +1,20 @@
-﻿using Techan.Models.Common;
+﻿using System.ComponentModel.DataAnnotations;
+using Techan.Models.Common;
 
 namespace Techan.ViewModels.Sliders;
 
 public class SliderUpdateVM:BaseEntity
 {
-	public string Title { get; set; }
-	public string LittleTitle { get; set; }
+    [MinLength(10), MaxLength(128)]
+    public string Title { get; set; }
+    [MinLength(10), MaxLength(128)]
+    public string LittleTitle { get; set; }
+	[MinLength(10),MaxLength(128)]
 	public string BigTitle { get; set; }
-	public string Offer { get; set; }
+    [MinLength(10), MaxLength(128)]
+    public string Offer { get; set; }
 	public IFormFile? ImageFile { get; set; }
-	public string Link { get; set; }
+    [MinLength(10), MaxLength(128)]
+    public string Link { get; set; }
 	public string? ImagePath {  get; set; }
 }

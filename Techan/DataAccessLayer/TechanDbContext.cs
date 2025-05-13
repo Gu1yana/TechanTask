@@ -1,9 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Techan.Models;
+using Techan.Models.LoginRegister;
 
 namespace Techan.DataAccessLayer;
 
-public class TechanDbContext:DbContext
+public class TechanDbContext:IdentityDbContext<AppUser, IdentityRole<Guid>,Guid>
 {
     public TechanDbContext(DbContextOptions opt):base(opt)
     {
@@ -13,7 +16,10 @@ public class TechanDbContext:DbContext
     public DbSet<Category> Categories{get; set; }
     public DbSet<Brand> Brands { get; set; }
     public DbSet<Product> Products { get; set; }
-	//protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public DbSet<ProductImage> ProductImages { get; set; }
+   // public DbSet<AppUser> Users { get; set; }
+	
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 	//{
 	//    optionsBuilder.UseSqlServer("Server=WIN-G1CGFOVK2JI\\SQLEXPRESS;Database=Techan;Trusted_Connection=true;TrustServerCertificate=true");
 	//    base.OnConfiguring(optionsBuilder);     

@@ -1237,6 +1237,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.6.0.min.js"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\default.jpg",
+      "PackagePath": "staticwebassets\\default.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\brands\\agkmy1hi.5kb.jpg",
       "PackagePath": "staticwebassets\\imgs\\brands\\agkmy1hi.5kb.jpg"
     },
@@ -1281,12 +1285,40 @@
       "PackagePath": "staticwebassets\\imgs\\brands\\zsnpiwvn.qvw.jpeg"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\products\\h4kqpzj3.fpj.avif",
+      "PackagePath": "staticwebassets\\imgs\\products\\h4kqpzj3.fpj.avif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\products\\vmf5geoc.vur.png",
+      "PackagePath": "staticwebassets\\imgs\\products\\vmf5geoc.vur.png"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\as3kg4g0.dcm.webp",
       "PackagePath": "staticwebassets\\imgs\\slider\\as3kg4g0.dcm.webp"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\cegqylhy.zvp.avif",
+      "PackagePath": "staticwebassets\\imgs\\slider\\cegqylhy.zvp.avif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\cqzo1pg0.moo.jpg",
+      "PackagePath": "staticwebassets\\imgs\\slider\\cqzo1pg0.moo.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\gzj4e4jc.qrk.jpg",
       "PackagePath": "staticwebassets\\imgs\\slider\\gzj4e4jc.qrk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\n1e3rnjb.q0p.avif",
+      "PackagePath": "staticwebassets\\imgs\\slider\\n1e3rnjb.q0p.avif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\qrnr0tc0.e50.jpg",
+      "PackagePath": "staticwebassets\\imgs\\slider\\qrnr0tc0.e50.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\ybvekqjo.qyu.webp",
+      "PackagePath": "staticwebassets\\imgs\\slider\\ybvekqjo.qyu.webp"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\ymoihhly.tqv.jpg",

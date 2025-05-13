@@ -4,7 +4,7 @@ using Techan.Models.Common;
 
 namespace Techan.ViewModels.Products;
 
-public class ProductGetVM : BaseEntity
+public class ProductListVM : BaseEntity
 {
 	public string Name { get; set; }
 	public string BrandName { get; set; }

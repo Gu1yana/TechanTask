@@ -1,11 +1,11 @@
-﻿@model List<ProductGetVM>
+﻿@model IEnumerable<Techan.ViewModels.Products.ProductListVM>
 @{
 	int order = 1;
 }
 <section class="content-main">
 	<div class="content-header">
 		<h2 class="content-title">Product List</h2>
-		<a asp-action="Create" asp-controller="Prooduct" class="btn btn-primary">Create</a>
+		<a asp-action="Create" class="btn btn-primary">Create</a>
 	</div>
 	<div class="card mb-4">
 		<div class="card-body">
@@ -14,9 +14,13 @@
 					<thead>
 						<tr>
 							<th>#ID</th>
-							<th scope="col">Image</th>
 							<th scope="col">Name</th>
-							
+							<th scope="col">Category</th>
+							<th scope="col">Brand</th>
+							<th scope="col">Image</th>
+							<th scope="col">Cost Price</th>
+							<th scope="col">Sell Price</th>
+							<th scope="col">Discount</th>
 							<th colspan="2" class="text-center"> Action </th>
 						</tr>
 					</thead>
@@ -40,16 +44,16 @@
 								<td>
 									<a asp-action="Delete" asp-controller="Product" class="btn btn-info" asp-route-id="@item.Id">Delete </a>
 								</td>
-								 @* <td>
-								 	@if(item.IsDeleted)
-								 	{
-								 		<a asp-action="SoftDelete" class="btn btn-primary-light lext-light" asp-route-itemid="@item.Id">Show</a>
-								 	}
-								 	else
-								 	{
-								 		<a asp-action="SoftDelete" class="btn btn-secondary lext-light" asp-route-itemid="@item.Id">Hide</a>
-								 	}
-								 </td> *@
+								    <td>
+								    	@if(item.IsDeleted)
+								    	{
+								    		<a asp-action="SoftDelete" class="btn btn-primary-light lext-light" asp-route-id="@item.Id">Show</a>
+								    	}
+								    	else
+								    	{
+								    		<a asp-action="SoftDelete" class="btn btn-secondary lext-light" asp-route-id="@item.Id">Hide</a>
+								    	}
+								    </td>
 							</tr>
 						}
 					</tbody>
