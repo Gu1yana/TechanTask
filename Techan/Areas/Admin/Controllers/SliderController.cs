@@ -6,11 +6,13 @@ using Techan.DataAccessLayer;
 using Techan.Models;
 using Techan.ViewModels.Sliders;
 using Techan.Models.Common;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Techan.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	public class SliderController(TechanDbContext _context) : Controller
+    [Authorize(Roles = "Superadmin, Admin,Moderator")]
+    public class SliderController(TechanDbContext _context) : Controller
 	{
 		public async Task<IActionResult> Index()
 		{
@@ -92,7 +94,7 @@ namespace Techan.Areas.Admin.Controllers
             if (!ModelState.IsValid) return View(model);
            var entity=await _context.Sliders.FirstOrDefaultAsync(x=>x.Id==id);
             if (entity is null) return BadRequest();
-            if(model.ImagePath!=null)
+            if(model.ImageFile!=null)
             {
 				string newFileName = Path.GetRandomFileName() + Path.GetExtension(model.ImageFile.FileName);
                 string newPath = Path.Combine("wwwroot", "imgs", "slider", newFileName);

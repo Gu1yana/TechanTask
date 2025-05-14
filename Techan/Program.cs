@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Techan.DataAccessLayer;
+using Techan.Models;
 using Techan.Models.LoginRegister;
 
 namespace Techan
@@ -16,7 +17,7 @@ namespace Techan
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSQL"));
             });
 
-            builder.Services.AddIdentity<AppUser, IdentityRole<Guid>>(x =>
+            builder.Services.AddIdentity<AppUser, Role>(x =>
             {
                 x.User.AllowedUserNameCharacters =
                 "abcdefghijklmnopqrstuvwxyz0123456789_";

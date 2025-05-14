@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Techan.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    //[Authorize(Roles= "Superadmin, Admin,Moderator")]
     public class DashboardController : Controller
     {
         public IActionResult Index()

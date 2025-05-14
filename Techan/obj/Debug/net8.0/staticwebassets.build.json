@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H2DE/G9SzVRXwsLVWlYJcMaWWOjQ+UTbpkZ0ZlVYYPg=",
+  "Hash": "rQBSt4cJrdF+Fk76pnoDVwXviiX8xz0ebHDQIUCCAVY=",
   "Source": "Techan",
   "BasePath": "_content/Techan",
   "Mode": "Default",
@@ -6154,6 +6154,25 @@
       "OriginalItemSpec": "wwwroot\\imgs\\products\\vmf5geoc.vur.png"
     },
     {
+      "Identity": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\5sq5dmjn.5nx.jpeg",
+      "SourceId": "Techan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\",
+      "BasePath": "_content/Techan",
+      "RelativePath": "imgs/slider/5sq5dmjn.5nx.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\slider\\5sq5dmjn.5nx.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\as3kg4g0.dcm.webp",
       "SourceId": "Techan",
       "SourceType": "Discovered",
@@ -6247,25 +6266,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgs\\slider\\n1e3rnjb.q0p.avif"
-    },
-    {
-      "Identity": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\qrnr0tc0.e50.jpg",
-      "SourceId": "Techan",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\",
-      "BasePath": "_content/Techan",
-      "RelativePath": "imgs/slider/qrnr0tc0.e50.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\slider\\qrnr0tc0.e50.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\TECHAN ALL\\TECHAN\\Techan\\wwwroot\\imgs\\slider\\ybvekqjo.qyu.webp",

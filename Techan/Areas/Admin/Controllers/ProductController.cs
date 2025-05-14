@@ -13,7 +13,7 @@ using Techan.ViewModels.Sliders;
 namespace Techan.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	[Authorize]
+	//[Authorize(Roles = "Superadmin, Admin,Moderator")]
 	public class ProductController(TechanDbContext _context) : Controller
 	{
 		public async Task<IActionResult> Index()

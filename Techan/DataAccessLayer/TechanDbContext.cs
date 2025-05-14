@@ -6,7 +6,7 @@ using Techan.Models.LoginRegister;
 
 namespace Techan.DataAccessLayer;
 
-public class TechanDbContext:IdentityDbContext<AppUser, IdentityRole<Guid>,Guid>
+public class TechanDbContext:IdentityDbContext<AppUser,Role,Guid>
 {
     public TechanDbContext(DbContextOptions opt):base(opt)
     {
