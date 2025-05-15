@@ -27,7 +27,8 @@ namespace Techan.Areas.Admin.Controllers
 				CostPrice = x.CostPrice,
 				SellPrice = x.SellPrice,
 				Discount = x.Discount,
-				ImageUrl = x.ImageUrl
+				ImageUrl = x.ImageUrl,
+				IsDeleted=x.IsDeleted
 			}).ToListAsync();
 			return View(products);
 		}
@@ -81,12 +82,19 @@ namespace Techan.Areas.Admin.Controllers
 				return NotFound();
 			return RedirectToAction(nameof(Index));
 		}
-		//public async Task<IActionResult> SoftDelete(int? id)
-		//{
+        public async Task<IActionResult> SoftDeleted(int? id)
+        {
+            if (!id.HasValue || id < 1) return BadRequest();
+            var model = await _context.Brands.FindAsync(id);
+            if (model is null)
+                return NotFound();
+            model.IsDeleted = !model.IsDeleted;
+			await _context.SaveChangesAsync();
+			TempData["IsDeleted"] = true;
+			return RedirectToAction(nameof(Index));
+        }
 
-
-		//}
-		private async Task ViewBags()
+        private async Task ViewBags()
 		{
 			var brands = await _context.Brands.Select(
 					x => new BrandGetVM

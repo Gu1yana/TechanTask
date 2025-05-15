@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using Techan.DataAccessLayer;
 using Techan.Models;
 using Techan.ViewModels.Brands;
@@ -8,7 +9,7 @@ using Techan.ViewModels.Brands;
 namespace Techan.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-    [Authorize(Roles = "Superadmin,Admin,Moderator")]
+    [Authorize(Roles = "User,Superadmin,Admin,Moderator")]
     public class BrandController(TechanDbContext _context) : Controller
 	{
 		public async Task<IActionResult> Index()
@@ -17,8 +18,8 @@ namespace Techan.Areas.Admin.Controllers
 			{
 				Id = x.Id,
 				Name = x.Name,
-				ImageUrl = x.ImageUrl
-			}).ToListAsync();
+				ImageUrl = x.ImageUrl,
+            }).ToListAsync();
 			return View(datas);
 		}
 		public async Task<IActionResult> Create()
@@ -66,7 +67,7 @@ namespace Techan.Areas.Admin.Controllers
 		public async Task<IActionResult> Update(int? id)
 		{
 			
-			if (id.HasValue || id < 1) return BadRequest();
+			if (!id.HasValue || id < 1) return BadRequest();
 			var brand = await _context.Brands
 				.Where(x=>x.Id==id)
 				.Select(x => new BrandUpdateVM
@@ -98,7 +99,7 @@ namespace Techan.Areas.Admin.Controllers
 				return View(model);
 			var brand = await _context.Brands.FindAsync(id);
 			if(brand is null) return NotFound();
-			if(model!=null)
+			if(model.ImageFile!=null)
 			{
 				string path = Path.Combine("wwwroot", "imgs", "brands", brand.ImageUrl);
 				await using (FileStream fs = new FileStream(path, FileMode.Create))
@@ -109,23 +110,6 @@ namespace Techan.Areas.Admin.Controllers
 			brand.Name = model.Name;
 			await  _context.SaveChangesAsync();
 			return RedirectToAction(nameof(Index));
-			//if (id.HasValue || id < 1) return BadRequest();
-			//if (!ModelState.IsValid) return View(model);
-			//var entity = await _context.Brands.FirstOrDefaultAsync(x => x.Id == id);
-			//if (entity == null) return BadRequest();
-			//if (model.ImageUrl != null)
-			//{
-			//	string newFileName = Path.GetRandomFileName() + Path.GetExtension(model.ImageFile.FileName);
-			//	string newPath = Path.Combine("wwwroot", "imgs", "brands", newFileName);
-			//	await using (FileStream fs = System.IO.File.Create(newPath))
-			//	{
-			//		model.ImageFile.CopyToAsync(fs);
-			//	}
-			//	entity.Name = model.Name;
-			//	entity.ImageUrl = newFileName;
-			//}
-			//await _context.SaveChangesAsync();
-			//return RedirectToAction(nameof(Index));
 		}
 	}
 }

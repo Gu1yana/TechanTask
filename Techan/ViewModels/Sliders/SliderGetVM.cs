@@ -1,8 +1,9 @@
 ﻿using Techan.Models.Common;
+using Techan.ViewModels.CommonVM;
 
 namespace Techan.ViewModels.Sliders
 {
-    public class SliderGetVM:BaseEntity
+    public class SliderGetVM: BaseVM
     {
         public string Title { get; set; }
         public string LittleTitle { get; set; }

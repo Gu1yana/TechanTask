@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Techan.Models.Common;
+using Techan.ViewModels.CommonVM;
 
 namespace Techan.ViewModels.Sliders;
 
-public class SliderUpdateVM:BaseEntity
+public class SliderUpdateVM: BaseVM
 {
     [MinLength(10), MaxLength(128)]
     public string Title { get; set; }

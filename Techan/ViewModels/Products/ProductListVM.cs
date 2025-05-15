@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Techan.Models;
 using Techan.Models.Common;
+using Techan.ViewModels.CommonVM;
 
 namespace Techan.ViewModels.Products;
 
-public class ProductListVM : BaseEntity
+public class ProductListVM : BaseVM
 {
 	public string Name { get; set; }
 	public string BrandName { get; set; }
@@ -15,5 +16,4 @@ public class ProductListVM : BaseEntity
 	public decimal CostPrice { get; set; }
 	public decimal SellPrice { get; set; }
 	public string ImageUrl { get; set; }
-	public bool IsDeleted { get; set; }
 }

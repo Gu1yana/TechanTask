@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace Techan.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-    [Authorize(Roles = "Superadmin, Admin,Moderator")]
+    [Authorize]
     public class SliderController(TechanDbContext _context) : Controller
 	{
 		public async Task<IActionResult> Index()
@@ -73,7 +73,7 @@ namespace Techan.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Update(int? id)
         {
-            if (id.HasValue && id < 1) return BadRequest();
+            if (!id.HasValue && id < 1) return BadRequest();
             var entity=await _context.Sliders.Select(x => new SliderUpdateVM
             {
                 Id=x.Id,
@@ -90,7 +90,7 @@ namespace Techan.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(int? id, SliderUpdateVM model)
         {
-            if(id.HasValue && id<1) return BadRequest();
+            if(!id.HasValue && id<1) return BadRequest();
             if (!ModelState.IsValid) return View(model);
            var entity=await _context.Sliders.FirstOrDefaultAsync(x=>x.Id==id);
             if (entity is null) return BadRequest();

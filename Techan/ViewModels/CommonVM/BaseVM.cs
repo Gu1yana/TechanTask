@@ -1,6 +1,6 @@
-﻿namespace Techan.Models.Common;
+﻿namespace Techan.ViewModels.CommonVM;
 
-public class BaseEntity
+public class BaseVM
 {
     public int Id { get; set; }
     public bool IsDeleted { get; set; } 
